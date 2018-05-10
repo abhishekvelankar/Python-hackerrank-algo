@@ -1,0 +1,13 @@
+#!/bin/python
+
+import sys
+
+
+n = int(raw_input().strip())
+count = n
+number = 1
+n = n-1
+while number <= count:
+    print(" "*n + "#"*number)
+    n = n - 1
+    number = number + 1
